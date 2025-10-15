@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Inscription en ligne</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="frm-title">Inscription en ligne</h1>
+    <div id="frm-corp">
+        <form id="frm" action="" method="post" enctype="text/plain">
+            <fieldset id="fs-ge">
+                <legend>Informations personnelles</legend>
+                <table>
+                    <tr>
+                        <td><label for="nom">Nom</label></td>
+                        <td><input type="text" id="nom" name="nom"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pnom">Prénom</label></td>
+                        <td><input type="text" id="pnom" name="pnom"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ddn">Date de naissance</label></td>
+                        <td><input type="date" id="ddn" name="ddn"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="colline">Colline</label></td>
+                        <td><input type="text" id="colline" name="colline"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Sexe</label></td>
+                        <td>
+                            <input type="radio" name="sexe" value="masculin"> Masculin
+                            <input type="radio" name="sexe" value="feminin"> Féminin
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="nation">Nationalité</label></td>
+                        <td><input type="text" id="nation" name="nation"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="resid">Résidence actuelle</label></td>
+                        <td><input type="text" id="resid" name="resid"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset id="fs-et">
+                <legend>Etudes</legend>
+                <table>
+                    <tr>
+                        <td><label for="ecole">Ecole d'origine</label></td>
+                        <td>
+                            <select id="ecole" name="ecole">
+                                <option value="1">CND</option>
+                                <option value="2">ENF</option>
+                                <option value="3">ENG</option>
+                                <option value="4">ETSA</option>
+                                <option value="5">PACIS</option>
+                                <option value="6">New Generation</option>
+                                <option value="7">Urbain Rango</option>
+                                <option value="8">Urbain Stade</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset id="fs-ch">
+                <legend>Choix</legend>
+                <table>
+                    <tr>
+                        <td><label for="programmes">Cochez 3 programmes de votre choix</label></td>
+                        <td>
+                            <input type="checkbox" name="n1"> TIC R&T<br>
+                            <input type="checkbox" name="n2"> TIC IT<br>
+                            <input type="checkbox" name="n3"> TIC Electronique<br>
+                            <input type="checkbox" name="n4"> HEC CCA<br>
+                            <input type="checkbox" name="n5"> HEC FBA<br>
+                            <input type="checkbox" name="n6"> IG<br>
+                            <input type="checkbox" name="n7"> EMI<br>
+                            <input type="checkbox" name="n8"> IFC<br>
+                            <input type="checkbox" name="n9"> IDC<br>
+                            <input type="checkbox" name="n10"> IBA
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset id="fs-co">
+                <legend>Commentaire final s'il y en a</legend>
+                <table>
+                    <tr>
+                        <td><label for="comment">Commentaires</label></td>
+                        <td><textarea id="comment" name="comment" rows="4" cols="30"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+            <input type="submit" value="Soumettre">
+            <input type="reset" value="Recommencer">
+        </form>
+    </div>
+</body>
+</html>

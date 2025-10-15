@@ -1,0 +1,57 @@
+#frm-title {
+  border: 5px solid #aaaaaa;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#frm-corp {
+  width: 60%;
+  margin: auto;
+}
+
+fieldset {
+  margin: 10px;
+  padding: 20px;
+  border: 3px solid #000000;
+}
+
+#fs-et {
+  border-radius: 20px;
+}
+
+#fs-ch {
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+table tr td {
+  padding: 5px;
+  width: 60%;
+}
+
+table tr td input {
+  width: 400px;
+  height: 25px;
+}
+
+table tr td input[type="radio"] {
+  width: 80px;
+  height: 20px;
+}
+
+table tr td input[type="checkbox"] {
+  width: 120px;
+  height: 20px;
+}
+
+table tr td select,
+table tr td textarea {
+  width: 350px;
+}
